@@ -1,0 +1,23 @@
+[
+
+{
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https://www.bandsintown.com/t/105168022?app_id=9c97ce5ebd83b08febf4c3d8ca97cab4&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket"
+            }
+        ],
+        "venue": {
+            "country": "Italy",
+            "city": "Tirolo",
+            "name": "Tyrol Castle"
+        },
+        "datetime": "2024-07-11T20:00:00",
+        "url": "https://www.bandsintown.com/e/105168022?app_id=9c97ce5ebd83b08febf4c3d8ca97cab4&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "artist": {
+            "id": "15498682",
+            "name": "Siger",
+            "app_id": "9c97ce5ebd83b08febf4c3d8ca97cab4"
+        }
+    }
+]
