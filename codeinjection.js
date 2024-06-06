@@ -1,12 +1,21 @@
-<!-- LOAD JQUERY - USED TO EXECUDE CODE -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+function loadScript(url, callback) {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = url;
+    script.onload = callback;
+    document.head.appendChild(script);
+}
 
-<!-- LOAD MOMENT.JS FOR DATE AND TIME FORMATTING -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/nl-be.min.js"></script>
+function loadDependencies(callback) {
+    loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js", function() {
+        loadScript("https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js", function() {
+            loadScript("https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/nl-be.min.js", callback);
+        });
+    });
+}
 
-<!-- THE SCRIPT -->
-<script>
+// Call loadDependencies and then load your main script
+loadDependencies(function() {
     
 	/* EXECUTE WHEN PAGE IS LOADED */
   	$(function() {
@@ -204,4 +213,4 @@
      });
      /* END LIVE PAGE SCRIPT */
   });
-</script>
+});
