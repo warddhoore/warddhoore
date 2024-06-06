@@ -1,11 +1,9 @@
 [
-    {
-    "offers": [
-      {
-        "type": "Tickets",
-        "url": "https://pierrot.io/muziekclub-t-ey/airboxes-concert"
-      }
-    ],
+  {
+    "offers": [{
+      "type": "Tickets",
+      "url": "https://pierrot.io/muziekclub-t-ey/airboxes-concert"
+    }],
     "venue": {
       "country": "Belgium",
       "city": "Belsele",
@@ -17,7 +15,7 @@
       "name": "Airboxes XL"
     }
   },
-    {
+  {
     "venue": {
       "country": "Belgium",
       "city": "Dranouter",
