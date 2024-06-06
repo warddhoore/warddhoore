@@ -181,7 +181,7 @@
 
                eventitems.forEach(event => {
 
-                   artist = artists.filter(artist => artist.id === event.artist_id)[0];
+                   artist = artists.filter(artist => artist.id === event.artist.id)[0];
                    artistname = artist ? artist.name : '';
 					eventlist.style.padding = "20px";
                    eventlist.innerHTML += [
