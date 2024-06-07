@@ -18,6 +18,19 @@
   {
     "offers": [], 
     "venue": {
+      "country": "Belgium ",
+      "city": "Aalst",
+      "name": "Studio Trad Live Sessions"
+    },
+    "url": "www.airboxes.be",
+    "datetime": "2024-07-12T13:00:00",
+    "artist": {
+      "name": "Ward Dhoore"
+    }
+  }
+  {
+    "offers": [], 
+    "venue": {
       "country": "Belgium",
       "city": "Dranouter",
       "name": "Showcase Festival Dranouter"
