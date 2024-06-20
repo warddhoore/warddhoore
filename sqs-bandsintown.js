@@ -1,4 +1,6 @@
 // script.js
+console.log('initialize script');
+
 const sqsPageElement = 'page-section-5f7f6af007b2df73f173ea2b';
 
 document.addEventListener("DOMContentLoaded", function () {
